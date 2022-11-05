@@ -12,10 +12,10 @@ const Navbar = (props) => {
                             <li className="nav-item"><a className="nav-link active" aria-current="page" href="#!">Home</a></li>
                             <li className="nav-item"><a className="nav-link" href="#!">About</a></li>
                             <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+                                <a className="nav-link dropdown-toggle" id="navbarDropdown" href="#profile" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a className="dropdown-item" href="#!">All Products</a></li>
-                                    <li><hr className="dropdown-divider" /></li>
+                                    <li><hr className="dropdown-divider" /></li>[![Netlify Status](https://api.netlify.com/api/v1/badges/57ee81ec-21dd-47bf-9a7f-51d05f1e68c3/deploy-status)](https://app.netlify.com/sites/curious-panda-5fbe48/deploys)
                                     <li><a className="dropdown-item" href="#!">Popular Items</a></li>
                                     <li><a className="dropdown-item" href="#!">New Arrivals</a></li>
                                 </ul>
